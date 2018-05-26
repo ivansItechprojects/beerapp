@@ -1,0 +1,109 @@
+@media screen and (min-width:1024px) and (max-width:1365px) {
+    .mainDiv2 {
+        width: 33%;
+    }
+}
+@media screen and (min-width:768px) and (max-width:1023px) {
+    .mainDiv2 {
+        width: 100%;
+    }
+    .appwrapper {
+        display: flex;
+        flex-direction: column;
+        margin: 0 auto;
+        justify-content: center;
+        width: 305px;
+    }
+    .popuptext {
+        width: 95%;
+    }
+}
+@media screen and (min-width:480px) and (max-width:767px) {
+    .mainDiv2 {
+        width: 100%;
+    }
+    .appwrapper {
+        display: flex;
+        flex-direction: column;
+        margin: 0 auto;
+        justify-content: center;
+        width: 305px;
+    }
+    .popuptext {
+        width: 95%;
+    }
+}
+@media screen and (min-width:240px) and (max-width:479px) {
+    .mainDiv2 {
+        width: 100%;
+    }
+    .appwrapper {
+        display: flex;
+        flex-direction: column;
+        margin: 0 auto;
+        justify-content: center;
+        width: 100%;
+    }
+    .mainDiv2 div {
+        width: 100%;
+    }
+    .popuptext {
+        width: 100%;
+    }
+    .beerinfo {
+        flex-direction: column;
+        justify-content: center;
+    margin: 0 auto;
+    text-align: center;
+    }
+    .beerinfo_left {
+        width: 20%;
+    margin: 0 auto;
+    }
+    .beerinfo_right {
+        width: 95%;
+        margin: 0 auto;
+    }
+    .bearHeading {
+        font-size: 1.1em;
+        margin:5px 0 6px 0;
+    }
+    .beerinfo_right p {
+        text-align: center;
+        font-size: 0.750em;
+        margin:5px 0 6px 0;
+    }
+    .beerinfo_right ul {
+        text-align: center;
+        list-style: none;
+        margin:0 auto;
+        padding: 0;
+     justify-content: center;
+    }
+    .goodheading {
+        text-align: center;
+        font-weight: 700;
+    }
+    .wave div:nth-child(1) {
+        width: auto;
+    }
+    .wave div:nth-child(3) {
+        width: auto;
+    }
+    .popuptext {
+        width: 95%;
+        padding: 0;
+        top: 0%;
+        left: 0%;
+        transform: translate(0%, 45%);
+    }
+    .closePopup {
+        right: -5px;
+    }
+    .GoodWidthHeading {
+        text-align: center;
+        display: flex;
+        justify-content: center;
+        margin: 0 auto;
+    }
+}
