@@ -5,14 +5,14 @@
 }
 @media screen and (min-width:768px) and (max-width:1023px) {
     .mainDiv2 {
-        width: 100%;
+        flex: 1 0 25%;
+		justify-content: center;
     }
     .appwrapper {
         display: flex;
-        flex-direction: column;
-        margin: 0 auto;
-        justify-content: center;
-        width: 305px;
+		margin: 0 auto;
+		justify-content: center;
+		flex-wrap: wrap;
     }
     .popuptext {
         width: 95%;
