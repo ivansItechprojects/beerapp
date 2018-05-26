@@ -34,6 +34,13 @@
     }
 }
 @media screen and (min-width:240px) and (max-width:479px) {
+	.appHead {
+		text-align: center;
+		margin: 20px auto 0 0;
+		font-size: 2.5em;
+		text-transform: uppercase;
+		font-family: 'Roboto', sans-serif;
+	}
     .mainDiv2 {
         width: 100%;
     }
@@ -95,13 +102,13 @@
 		padding: 0;
 		top: 0%;
 		left: 2%;
-		transform: translate(0%, 45%);
+		    transform: translate(2%, 15%);
 		margin: 0 auto;
 		justify-content: center;
 		text-align: center;
     }
     .closePopup {
-        right: -5px;
+        right: -10px;
     }
     .GoodWidthHeading {
         text-align: center;
