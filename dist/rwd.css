@@ -137,6 +137,16 @@
     }
     .wave div:nth-child(2) {
         height: 200px;
+        height: 200px;
+        margin: 0;
+        background-size: contain;
+        display: flex;
+        justify-content: center;
+        text-align: center;
+        left: 0;
+        right: 0;
+        width: 70px;
+        padding: 0;
     }
     .wave div:nth-child(4) {
         height: 200px;
