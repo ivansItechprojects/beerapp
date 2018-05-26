@@ -92,10 +92,13 @@
     }
     .popuptext {
         width: 95%;
-        padding: 0;
-        top: 0%;
-        left: 0%;
-        transform: translate(0%, 45%);
+		padding: 0;
+		top: 0%;
+		left: 2%;
+		transform: translate(0%, 45%);
+		margin: 0 auto;
+		justify-content: center;
+		text-align: center;
     }
     .closePopup {
         right: -5px;
