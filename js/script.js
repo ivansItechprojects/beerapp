@@ -1,16 +1,16 @@
 "use strict";
 
 const request = new XMLHttpRequest(),
-      rootElement = document.querySelector("#root"),
-      rootPopup = document.querySelector(".root__popup");
+    rootElement = document.querySelector("#root"),
+    rootPopup = document.querySelector(".root__popup");
 request.open("GET", "https://api.punkapi.com/v2/beers?page=1&per_page=25", true);
 request.onload = function () {
-  // Begin accessing JSON data here
-  var data = JSON.parse(this.response);
-  if (request.status >= 200 && request.status < 400) {
-    data.forEach(beers => {
-        rootElement.innerHTML += 
-        `<div class="mainDiv2">
+    // Begin accessing JSON data here
+    var data = JSON.parse(this.response);
+    if (request.status >= 200 && request.status < 400) {
+        data.forEach(beers => {
+            rootElement.innerHTML +=
+                `<div class="mainDiv2">
             <div class="topDiv">
                 <h2>${beers.name}</h2>
                 <img src =" ${beers.image_url}" alt="" />
@@ -40,31 +40,32 @@ request.onload = function () {
         </div>
     </div>
         `;
-       ;
-    });
-  } else {
-    console.log("error błąd z połączeniem");
-  }
+            ;
+        });
+    } else {
+        console.log("error błąd z połączeniem");
+    }
 }
 request.send();
-document.addEventListener("DOMContentLoaded", function() {
+document.addEventListener("DOMContentLoaded", function () {
     const preloaderVar = document.getElementById("loader-wrapper");
-    setTimeout(function(){
-        preloaderVar.style.display = "none";        
-        $(document).ready(function() {
+    setTimeout(function () {
+        preloaderVar.style.display = "none";
+        $(document).ready(function () {
             let modal = $('#popupElement'),
                 modal2 = $('.topDiv'),
                 close = $('.closePopup');
-             modal2.click(function(){
+            modal2.click(function () {
                 $(this).parent().next(modal).addClass('active');
                 $('body').addClass('hideBoddyScroll');
-             });
-             close.click(function(){
+            });
+            close.click(function () {
                 $(this).parent().parent(modal).removeClass('active');
                 $('body').removeClass('hideBoddyScroll');
-            });  
             });
-    },5000);
+        });
+    }, 5000);
 });
+
 
 

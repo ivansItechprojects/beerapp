@@ -3,21 +3,23 @@
         width: 33%;
     }
 }
+
 @media screen and (min-width:768px) and (max-width:1023px) {
     .mainDiv2 {
         flex: 1 0 25%;
-		justify-content: center;
+        justify-content: center;
     }
     .appwrapper {
         display: flex;
-		margin: 0 auto;
-		justify-content: center;
-		flex-wrap: wrap;
+        margin: 0 auto;
+        justify-content: center;
+        flex-wrap: wrap;
     }
     .popuptext {
         width: 95%;
     }
 }
+
 @media screen and (min-width:480px) and (max-width:767px) {
     .mainDiv2 {
         width: 100%;
@@ -33,20 +35,21 @@
         width: 95%;
     }
 }
+
 @media screen and (min-width:240px) and (max-width:479px) {
-	.wave div:nth-child(3) {
-		display:none;
-	}
-	.wave div:nth-child(4) {
-    display:none;
-}
-	.appHead {
-		text-align: center;
-		margin: 20px auto 0 0;
-		font-size: 2.5em;
-		text-transform: uppercase;
-		font-family: 'Roboto', sans-serif;
-	}
+    .wave div:nth-child(3) {
+        display: none;
+    }
+    .wave div:nth-child(4) {
+        display: none;
+    }
+    .appHead {
+        text-align: center;
+        margin: 20px auto 0 0;
+        font-size: 2.5em;
+        text-transform: uppercase;
+        font-family: 'Roboto', sans-serif;
+    }
     .mainDiv2 {
         width: 100%;
     }
@@ -66,12 +69,12 @@
     .beerinfo {
         flex-direction: column;
         justify-content: center;
-    margin: 0 auto;
-    text-align: center;
+        margin: 0 auto;
+        text-align: center;
     }
     .beerinfo_left {
         width: 20%;
-    margin: 0 auto;
+        margin: 0 auto;
     }
     .beerinfo_right {
         width: 95%;
@@ -79,23 +82,23 @@
     }
     .beerHeading {
         font-size: 1.1em;
-        margin:5px 0 6px 0;
+        margin: 5px 0 6px 0;
     }
     .beerinfo_right p {
         text-align: center;
         font-size: 0.750em;
-        margin:5px 0 6px 0;
+        margin: 5px 0 6px 0;
     }
     .beerinfo_right ul {
         text-align: center;
         list-style: none;
-        margin:0 auto;
+        margin: 0 auto;
         padding: 0;
-     justify-content: center;
+        justify-content: center;
     }
-	.beerHeading {
-		    font-size: 2.00em;
-	}
+    .beerHeading {
+        font-size: 1.1em;
+    }
     .goodheading {
         text-align: center;
         font-weight: 700;
@@ -108,14 +111,20 @@
     }
     .popuptext {
         width: 95%;
-		padding: 0;
-		top: 0%;
-		right: 0;
-		left: 0%;
-		transform: translate(0%, 15%);
-		margin: 0 auto;
-		justify-content: center;
-		text-align: center;
+        padding: 0;
+        top: 0%;
+        right: 0;
+        left: 0%;
+        transform: translate(0%, 4%);
+        margin: 0 auto;
+        justify-content: center;
+        text-align: center;
+    }
+    .popuptext img {
+        width: 45%;
+    }
+    .GoodWidthHeading {
+        font-size: 0.750em;
     }
     .closePopup {
         right: -10px;
@@ -126,10 +135,10 @@
         justify-content: center;
         margin: 0 auto;
     }
-	.wave div:nth-child(2) {
-		    height: 200px;
-	}
-	.wave div:nth-child(4) {
-		 height: 200px;
-	} 
+    .wave div:nth-child(2) {
+        height: 200px;
+    }
+    .wave div:nth-child(4) {
+        height: 200px;
+    }
 }
