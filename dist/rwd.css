@@ -34,6 +34,9 @@
     .popuptext {
         width: 95%;
     }
+    .closePopup {
+        right: -10px;
+    }
 }
 
 @media screen and (min-width:240px) and (max-width:479px) {

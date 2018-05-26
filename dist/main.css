@@ -497,7 +497,7 @@ body {
     height: 200px; }
   .mainDiv2 div h2 {
     text-align: center;
-    font-family: 'Roboto', sans-serif; }
+    font-family: 'Roboto', sans-serif;  width: 85%; }
   .mainDiv2 div p {
     text-align: center;
     font-family: 'Roboto', sans-serif; }
